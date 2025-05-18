@@ -1,0 +1,43 @@
+{
+  "name": "home-ai",
+  "version": "0.1.0",
+  "main": "App.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "echo \"No tests configured\""
+  },
+  "dependencies": {
+    "expo": "52.0.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "expo-splash-screen": "^0.20.5",
+    "expo-status-bar": "~2.0.1",
+    "react-native-gesture-handler": "2.x",
+    "react-native-reanimated": "3.x",
+    "react-native-safe-area-context": "4.x",
+    "react-navigation-shared-element": "^3.1.0",
+    "@react-navigation/native": "6.x",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@react-navigation/bottom-tabs": "^6.5.17",
+    "styled-components": "^6.1.8",
+    "@tanstack/react-query": "^5.40.0",
+    "axios": "^1.6.7",
+    "@expo/vector-icons": "13.x"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/react": "^18.2.21",
+    "@types/react-native": "^0.72.16",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  },
+  "snack": {
+    "name": "Home Ai",
+    "sdkVersion": "52.0.0",
+    "platforms": ["ios", "android", "web"],
+    "entryPoint": "App.js"
+  }
+}
