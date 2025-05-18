@@ -1,0 +1,5 @@
+{
+  "main": "App.js",
+  "sdkVersion": "52.0.0",
+  "platforms": ["ios", "android", "web"]
+}
